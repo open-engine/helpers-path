@@ -1,0 +1,33 @@
+{
+    "name": "open-engine/helpers-path",
+    "description": "Path helper",
+    "license": "GPL-3.0-or-later",
+    "type": "library",
+    "keywords": [
+        "php",
+        "path",
+        "helper"
+    ],
+    "authors": [
+        {
+            "name": "Akmal Kadirov",
+            "email": "akmal@kadirov.org",
+            "homepage": "http://kadirov.org/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "php": "~7.2"
+    },
+    "require-dev": {
+        "open-engine/run-tests": "~0.1.1"
+    }
+}
